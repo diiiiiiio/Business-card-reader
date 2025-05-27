@@ -2,7 +2,8 @@
 
 ## Automating Business Card Digitization with Deep Learning
 
-![BCR Logo/Icon - Placeholder for an actual logo if available]
+<img width="458" alt="Screenshot 2025-05-24 at 8 01 47 pm" src="https://github.com/user-attachments/assets/d3b1ac3f-32b6-476e-984f-977d97abca7d" />
+
 
 The Business Card Reader (BCR) is a web-based application designed to streamline professional networking by automating the process of extracting and managing information from physical business cards. Built as a capstone project for the "Deep Learning and Convolutional Neural Network" course, BCR leverages state-of-the-art computer vision and natural language processing techniques to convert physical cards into a searchable, editable digital contact list.
 
