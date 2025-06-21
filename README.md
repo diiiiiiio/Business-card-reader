@@ -19,11 +19,10 @@ The Business Card Reader (BCR) is a web-based application designed to streamline
 6.  [GUI Design](#6-gui-design)
 7.  [Installation](#7-installation)
 8.  [Usage](#8-usage)
-9.  [Demo](#9-demo)
-10. [Limitations](#10-limitations)
-11. [Future Enhancements](#11-future-enhancements)
-12. [Team](#12-team)
-13. [License](#13-license)
+9.  [Limitations](#9-limitations)
+10. [Future Enhancements](#10-future-enhancements)
+11. [Team](#11-team)
+12. [License](#12-license)
 
 ---
 
@@ -90,7 +89,6 @@ The application's GUI is a web-based prototype, organized into four main compone
 *   **Edit Page:** After detection, extracted information (Name, Company Name, Phone Number, Email) is pre-filled into editable text fields, alongside a small image of the card. Users can manually correct any errors and save changes.
 *   **My Cards Page (Results Page):** Displays a list of all saved business cards, each with its image and extracted details. This acts as the user's digital contact wallet.
 
-*(For detailed screenshots of each page, please refer to the project report's "2.3 GUI Design" section.)*
 
 ## 7. Installation
 
@@ -156,15 +154,8 @@ To set up and run the BCR application locally, follow these steps:
 6.  **View My Cards:**
     *   Go to the "My Cards" section to view and manage your saved business cards.
 
-## 9. Demo
 
-A live demonstration of the application's functionality is available in the provided video:
-
-*   **[Link to your demo video]** (e.g., `https://example.com/bcr_demo.mp4`)
-
-The demo showcases the full user journey from login, live scanning and detection, automatic information extraction, manual editing, and finally, saving and viewing contacts in the digital wallet.
-
-## 10. Limitations
+## 9. Limitations
 
 *   **Angle Sensitivity:** Model accuracy decreases with images captured from highly unconventional or aggressive angles, indicating a need for more diverse angular training data.
 *   **Background Interference:** Performance degrades when business cards closely match background colors or textures, sometimes leading to missed detections or inaccurate cropping.
@@ -173,7 +164,7 @@ The demo showcases the full user journey from login, live scanning and detection
 *   **Dataset Diversity:** Despite augmentation, the relatively small original custom dataset might limit generalizability to a wider variety of global business card designs and scripts not encountered during training.
 *   **Database Scalability:** The JSON-based database, while functional for individual users, may not be suitable for large-scale production environments with extensive user bases and data volumes.
 
-## 11. Future Enhancements
+## 10. Future Enhancements
 
 *   **Expanded & Diversified Dataset:** Integrate larger public datasets and implement more advanced data collection methods to improve model generalization.
 *   **Enhanced Object Detection:** Explore more robust detection techniques or ensemble methods for challenging conditions and reduced false positives.
